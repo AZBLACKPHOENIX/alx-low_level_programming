@@ -9,19 +9,20 @@
 int main(void)
 {
 long int n;
+
 srand(time(NULL));
-n = rand() % 199 - 99;
+n = rand() - RAND_MAX / 2
 if (n < 0)
 {
 printf("%ld is negative\n", n);
 }
-else if (n > 0)
+else if (n == 0)
 {
-printf("%ld is positive\n", n);
+printf("%ld is zero\n", n);
 }
 else
 {
-printf("0 is zero\n");
+printf("0 is positive\n", n);
 }
 return (0);
 }
