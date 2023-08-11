@@ -10,7 +10,7 @@ int main(void)
 {
 long int n;
 srand(time(NULL));
-n = rand() % 199 - 99;  // Generate a random number between -99 and 99
+n = rand() % 199 - 99;
 if (n < 0)
 {
 printf("%ld is negative\n", n);
