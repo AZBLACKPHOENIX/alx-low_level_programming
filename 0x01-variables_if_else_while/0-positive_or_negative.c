@@ -2,25 +2,26 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - 0-positive_or_negative.c
+ * main - Generates a random number and determines if it's positive, negative, or zero
  *
- * Return:0
+ * Return: 0
  */
 int main(void)
 {
-int n;
+long int n;
 srand(time(NULL));
-n = rand() % 200 - 100;
+n = rand() % 199 - 99;  // Generate a random number between -99 and 99
 if (n < 0)
 {
-printf("%d is negative\n", n);
+printf("%ld is negative\n", n);
 }
 else if (n > 0)
 {
-printf("%d is positive\n", n);
-}else if (n == 0)
+printf("%ld is positive\n", n);
+}
+else
 {
-printf("%d is 0", n);
+printf("0 is zero\n");
 }
 return (0);
 }
