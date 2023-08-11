@@ -8,8 +8,9 @@
  */
 int main(void)
 {
-srand(time(NULL));
-int n = rand();
+int n;
+srand time(NULL);
+n = rand();
 if (n < 0)
 {
 printf("%d is negative\n", n);
