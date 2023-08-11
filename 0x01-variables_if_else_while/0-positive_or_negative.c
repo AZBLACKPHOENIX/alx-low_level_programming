@@ -9,14 +9,14 @@
 int main(void)
 {
 srand(time(NULL));
-long int n = rand();
+int n = rand();
 if (n < 0)
 {
-printf("%ld is negative\n", n);
+printf("%d is negative\n", n);
 }
 else if (n > 0)
 {
-printf("%ld is positive\n", n);
+printf("%d is positive\n", n);
 }else
 {
 }
