@@ -22,7 +22,7 @@ printf("%ld is zero\n", n);
 }
 else
 {
-printf("0 is negative\n", n);
+printf("%ld is negative\n", n);
 }
 return (0);
 }
