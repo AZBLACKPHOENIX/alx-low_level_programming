@@ -5,7 +5,7 @@
 */
 int main(void)
 {
-int size;
+unsigned int size;
 size = sizeof(char);
 printf("Size of a char: %d byte(s)\n", size);
 size = sizeof(int);
