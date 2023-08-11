@@ -10,11 +10,11 @@ int main(void)
 {
 long int n;
 
-srand(time(NULL));
+srand(time(0));
 n = rand() - RAND_MAX / 2;
-if (n < 0)
+if (n > 0)
 {
-printf("%ld is negative\n", n);
+printf("%ld is position\n", n);
 }
 else if (n == 0)
 {
@@ -22,7 +22,7 @@ printf("%ld is zero\n", n);
 }
 else
 {
-printf("0 is positive\n", n);
+printf("0 is negative\n", n);
 }
 return (0);
 }
