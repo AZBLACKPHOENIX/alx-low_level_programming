@@ -9,7 +9,7 @@
 int main(void)
 {
 int n;
-srand time(NULL);
+srand(time(NULL));
 n = rand();
 if (n < 0)
 {
