@@ -10,22 +10,17 @@
 int main(void)
 {
 int n;
-int lastDigit;
-srand(time(NULL));
-n = rand();
-lastDigit = n % 10;
-printf("Last digit of %d is %d and is ", n, lastDigit);
-if (lastDigit > 5)
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+if ((n % 10) > 5)
 {
-printf("greater than 5\n");
+printf("Last digit of %d is %d and is greater than 5\n", n, n % 10);
 }
-else if (lastDigit == 0)
+else if ((n % 10) < 6 && (n % 10) != 0)
 {
-printf("0\n");
+printf("Last digit of %d is %d and is less than 6 and not 0\n", n , n % 10);
 }
 else
 {
-printf("less than 6 and not 0\n");
-}
+printf("Last digit of %d is %d and is 0\n", n, n % 10);
 return (0);
-}
