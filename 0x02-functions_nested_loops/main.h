@@ -1,4 +1,4 @@
-#lfndef main_h
+#ifndef main_h
 #define main_h
 int _puchar(char);
 void print_alphabet(void);
