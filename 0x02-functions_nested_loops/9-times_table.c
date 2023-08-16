@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 
 /**
  * times_table - prints multiples of product zero to nine
