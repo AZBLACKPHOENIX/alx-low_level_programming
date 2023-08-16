@@ -9,11 +9,11 @@
 int _isalpha(int c)
 {
 char alphabet[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-int i;    
+int i;
 for (i = 0; alphabet[i] != '\0'; i++)
 {
 if (c == alphabet[i])
 return 1;
-}    
+}
 return 0;
 }
