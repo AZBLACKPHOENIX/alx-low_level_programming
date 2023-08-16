@@ -1,7 +1,8 @@
 #include "main.h"
+
 /**
  * _islower - checks if chrtr is lower case
- * @c: The chrtr used to check
+ * @c: The charater used to check
  *
  * Return :1 if is lowercase else 0
  */
