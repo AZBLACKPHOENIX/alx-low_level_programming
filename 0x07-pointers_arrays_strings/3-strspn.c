@@ -4,7 +4,7 @@
  * @accept: The characters to include in the prefix.
  *
  * Return: The number of bytes in the initial segment of s consisting only of
- *         bytes from accept.
+ * bytes from accept.
  */
 unsigned int _strspn(char *s, char *accept)
 {
