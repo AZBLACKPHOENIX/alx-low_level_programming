@@ -9,8 +9,7 @@
  */
 int minCoins(int cents) {
 int coins[] = {25, 10, 5, 2, 1};
-int coinCount = 0;
-int i; 
+int coinCount, i;
 for (i = 0; i < 5; i++) {
 while (cents >= coins[i]) {
 cents -= coins[i];
