@@ -9,9 +9,7 @@
  */
 int count_words(char *str)
 {
-    int count = 0;
-    int in_word = 0; // Flag to track if we are inside a word
-
+    int count, in_word = 0;
     while (*str)
     {
         if (*str == ' ' || *str == '\t' || *str == '\n')
@@ -46,7 +44,7 @@ char **strtow(char *str)
 {
     int num_words, i, j;
     char **words;
-
+int word_length;
     if (str == NULL || *str == '\0')
         return NULL;
 
@@ -64,7 +62,7 @@ char **strtow(char *str)
         while (*str == ' ' || *str == '\t' || *str == '\n')
             str++;
 
-        int word_length = 0;
+        
         while (str[word_length] != ' ' && str[word_length] != '\t' && str[word_length] != '\n' && str[word_length] != '\0')
             word_length++;
 
