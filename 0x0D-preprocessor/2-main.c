@@ -5,7 +5,7 @@
 
 int main()
 {
-_putchar(__FILE__);
-_putchar("\n");
+printf(__FILE__);
+printf("\n");
 return 0;
 }
