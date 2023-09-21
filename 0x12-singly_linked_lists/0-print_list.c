@@ -1,6 +1,6 @@
-#include "lists.h"
 #include <stddef.h>
 #include <stdio.h>
+#include "lists.h"
 /**
  * print_list - Print all elements of list_s.
  * @h: Pointer to the head of the list.
