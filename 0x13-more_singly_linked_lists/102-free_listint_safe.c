@@ -24,5 +24,5 @@ if (temp == *h)
 break;
 }
 }
-return node_count;
+return (node_count);
 }

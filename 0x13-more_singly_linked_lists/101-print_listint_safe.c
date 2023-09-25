@@ -34,5 +34,5 @@ else
 fast_ptr = NULL;
 }
 }
-return node_count;
+return (node_count);
 }
