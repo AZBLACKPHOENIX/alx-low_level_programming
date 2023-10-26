@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include "main.h"
 
+/**
+ * print_binary - prints binary represantation of an int
+ * @n: value to check
+ */
 void print_binary(unsigned long int n)
 {
 int i;
