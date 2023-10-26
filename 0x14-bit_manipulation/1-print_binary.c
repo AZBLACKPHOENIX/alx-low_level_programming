@@ -16,13 +16,13 @@ if ((n & mask) == 0)
 {
 if (!leadingZeros || i == 3)
 {
-_putchar('0');
+printf("0");
 }
 }
 else
 {
 leadingZeros = 0;
-_putchar('1');
+printf("1");
 }
 mask >>= 1;
 }
